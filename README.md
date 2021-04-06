@@ -25,3 +25,5 @@ This will generate a file files.txt which you can now use to filter your rclone 
 ```
 rclone copy stash_remote: my_stash: --files-from files.txt
 ```
+
+Credits: `cornnello#3116`
