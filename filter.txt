@@ -1,0 +1,8 @@
+# This is a sample filter files
+# Comments are allowed and ignored
+# Used with the stash_update.sh script it will download the base game,
+# latest versions of updates and dlc for crash trilogy, fire emblem 3 houses and dark souls
+
+0100D1B00674  # Crash Bandicoot Trilogy
+010055D009F7  # Fire Emblem 3 Houses
+01004AB00A26
