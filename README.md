@@ -26,4 +26,15 @@ This will generate a file files.txt which you can now use to filter your rclone 
 rclone copy stash_remote: my_stash: --files-from files.txt
 ```
 
+## Using the filter bash script
+
+The filte bash script can take a filter file (format below) which can be used to selectively add titles to you stash clone. The most effective way to use this is to have a list of base contant ids (content ids without 4 last digits). The cloning script will copy all the latest versions of the files matching the filter list from SRC to DEST.
+
+In the release archive, there is a sample filter file. Sample usage:
+
+```
+mkdir roms
+./update_stash.sh filter.txt "stash_remote:NSZ" ./roms
+```
+
 Credits: `cornnello#3116`
